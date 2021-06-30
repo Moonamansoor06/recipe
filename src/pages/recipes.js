@@ -1,16 +1,14 @@
 import React from 'react'
-//import {Link} from 'gatsby'
 import Layout from '../components/Layout'
 
 
-
-
-export default function home() {
+function Recipes() {
     return (
         <Layout>
-
-            <h1>This is my home page</h1>
-            
+        <h1>Recipes page</h1>
         </Layout>
     )
 }
+
+
+export default Recipes
